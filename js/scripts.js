@@ -3,6 +3,6 @@
       };
 
       var number1 = parseInt(prompt("Enter a number:"));
-            var number2 = parseInt(prompt("Enter a number:"));
-
-      alert(add(number1, number2));
+      var number2 = parseInt(prompt("Enter a number:"));
+      var result = add(number1, number2);
+      alert(result);
